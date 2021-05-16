@@ -11,3 +11,8 @@ type User {
     status: String
     todos: [Todo!]!
 }
+
+type Query {
+    user: User!
+    todos: [Todo!]!
+}
